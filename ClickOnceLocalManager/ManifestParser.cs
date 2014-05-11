@@ -31,7 +31,11 @@ namespace ClickOnceLocalManager
                .Select((Func<XElement, XAttribute>)(depAssem => depAssem.Attribute(XName.Get("codebase"))))
                .Where(attr => attr != null)
                .Select((Func<XAttribute, string>)(attr => attr.Value))
-               .ToArray();
+            .Concat(
+               xml.Elements(XName.Get("file", "urn:schemas-microsoft-com:asm.v2"))
+                  .Select(file => file.Attribute(XName.Get("name")).Value)
+               )
+            .ToArray();
          return manifest;
       }
 
