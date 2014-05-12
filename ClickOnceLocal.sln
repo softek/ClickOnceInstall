@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickOnceLocalManager", "Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickOnceAppRunner", "ClickOnceAppRunner\ClickOnceAppRunner.csproj", "{A62C5915-C9D8-42B8-B4D3-BBAB6C8534D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClickOnceAppRunner", "WinClickOnceAppRunner\WinClickOnceAppRunner.csproj", "{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{A62C5915-C9D8-42B8-B4D3-BBAB6C8534D7}.Release|Mixed Platforms.Build.0 = Release|x86
 		{A62C5915-C9D8-42B8-B4D3-BBAB6C8534D7}.Release|x86.ActiveCfg = Release|x86
 		{A62C5915-C9D8-42B8-B4D3-BBAB6C8534D7}.Release|x86.Build.0 = Release|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Debug|x86.ActiveCfg = Debug|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Debug|x86.Build.0 = Debug|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Release|Any CPU.ActiveCfg = Release|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Release|x86.ActiveCfg = Release|x86
+		{2539BEC9-2806-474D-8AB0-CDB3CB7A67B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

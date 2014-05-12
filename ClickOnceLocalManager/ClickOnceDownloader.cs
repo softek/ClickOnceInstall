@@ -68,7 +68,8 @@ namespace ClickOnceLocalManager
             string path = Regex.Replace(str, "(?<!:)\\\\[^\\\\]+$", "");
             if (!Directory.Exists(path))
                Directory.CreateDirectory(path);
-            webClient.DownloadFile(address, str);
+            if (!File.Exists(str))
+               webClient.DownloadFile(address, str);
          }
       }
    }
